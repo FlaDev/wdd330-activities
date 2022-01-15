@@ -21,3 +21,8 @@ function add(){
     let secondNum = parseInt(document.getElementById('number3-b').value);
     document.getElementById('outputNum3').innerHTML = firstNum+secondNum;
 }
+
+const multiply = () => {
+    document.getElementById('outputNum4').innerHTML = parseFloat(document.getElementById('number4-a').value) * parseFloat(document.getElementById('number4-b').value);
+
+}
